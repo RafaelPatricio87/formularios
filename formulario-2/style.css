@@ -6,17 +6,35 @@
 main{
   display: flex;
   justify-content: center;
-  max-width: 1440px;
   padding: 20px;
 }
 .box{
-  border: solid red;
   padding: 30px;
 }
 .width-1{
-  width: 240px;
-  padding: 5px;
+  width: 340px;
+  padding: 8px;
   margin-left: 10px;
+}
+.width-2{
+  width: 240px;
+  padding: 8px;
+  margin-left: 10px;
+}
+.width-3{
+  width: 200px;
+  padding: 8px;
+  margin-left: 10px;
+}
+.width-4{
+  width: 190px;
+  padding: 8px;
+  margin-left: 10px;
+}
+.width-5{
+  width: 162px;
+  padding: 8px;
+  margin-left: 10px;  
 }
 .email{
    display: flex;
@@ -29,4 +47,74 @@ main{
   flex-direction: column;
   align-items: flex-end;
   gap: 10px;
+}
+.razao-social div{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.razao-social{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.padding{
+  padding: 10px 0;
+}
+.box-1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  margin: 10px 0;
+}
+.contato{
+  width: 360px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.contato-1{
+  width: 320px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.contato-2{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.contato-3{
+  gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.contato-4{
+  width: 300px;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.cadastro{
+  display: flex;
+  justify-content: flex-end;
+  width: 240px;
+  margin: 20px 0;
+}
+.cadastro button{
+  background-color: aquamarine;
+  padding: 8px 12px;
+  border: none;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
 }
